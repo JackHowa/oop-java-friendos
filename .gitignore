@@ -73,7 +73,6 @@ fabric.properties
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-# *.iml
 # modules.xml
 # .idea/misc.xml
 # *.ipr
@@ -105,5 +104,11 @@ fabric.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Ignore all iml, not needed
+*.iml
+
+# Ignore all .idea
+*.idea
 
 # End of https://www.gitignore.io/api/java,intellij
